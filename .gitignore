@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# YOLO training outputs
+runs/
+
+# Model weights (YOLO auto-downloads pretrained weights)
+*.pt
+
+# Dataset images and labels (keep directory structure)
+data/train/images/*
+data/train/labels/*
+data/test/images/*
+data/test/labels/*
+data/valid/images/*
+data/valid/labels/*
+
+# Keep .gitkeep files to preserve directory structure
+!data/train/images/.gitkeep
+!data/train/labels/.gitkeep
+!data/test/images/.gitkeep
+!data/test/labels/.gitkeep
+
+# Environment variables
+.env
